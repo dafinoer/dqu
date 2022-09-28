@@ -159,7 +159,7 @@ const dzikirData = [
       'وَأَعُوْذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِيْ '
     ],
     'is_day': true,
-    'is_night': false,
+    'is_night': true,
     'suggestion': '(Dibaca 1x)',
     'description':
         '“Ya Allah, sesungguhnya aku memohon kebajikan dan keselamatan di dunia dan akhirat. Ya Allah, sesungguhnya aku memohon kebajikan dan keselamatan dalam agama, dunia, keluarga dan hartaku. Ya Allah, tutupilah auratku (aib dan sesuatu yang tidak layak dilihat orang) dan tenteramkanlah aku dari rasa takut. Ya Allah, peliharalah aku dari muka, belakang, kanan, kiri dan atasku. Aku berlindung dengan kebesaran-Mu, agar aku tidak disambar dari bawahku (oleh ular atau tenggelam dalam bumi dan lain-lain yang membuat aku jatuh).”',
@@ -177,7 +177,7 @@ const dzikirData = [
       'وَأَنْ أَقْتَرِفَ عَلَى نَفْسِيْ سُوْءًا أَوْ أَجُرُّهُ إِلَى مُسْلِمٍ'
     ],
     'is_day': true,
-    'is_night': false,
+    'is_night': true,
     'suggestion': '(Dibaca 1x)',
     'description':
         '“Ya Allah, Yang Maha Mengetahui yang ghaib dan yang nyata, wahai Rabb pencipta langit dan bumi, Rabb segala sesuatu dan yang merajainya. Aku bersaksi bahwa tidak ada ilah yang berhak disembah kecuali Engkau. Aku berlindung kepadaMu dari kejahatan diriku, setan dan balatentaranya (godaan untuk berbuat syirik pada Allah), dan aku (berlindung kepada-Mu) dari berbuat kejelekan terhadap diriku atau menyeretnya kepada seorang muslim.”',
@@ -190,7 +190,7 @@ const dzikirData = [
       'بِسْمِ اللَّهِ الَّذِى لاَ يَضُرُّ مَعَ اسْمِهِ شَىْءٌ فِى الأَرْضِ وَلاَ فِى السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ'
     ],
     'is_day': true,
-    'is_night': false,
+    'is_night': true,
     'suggestion': '(Dibaca 3x)',
     'description':
         '“Dengan nama Allah yang bila disebut, segala sesuatu di bumi dan langit tidak akan berbahaya, Dia-lah Yang Maha Mendengar lagi Maha Mengetahui.”',
@@ -203,8 +203,10 @@ const dzikirData = [
       'رَضِيْتُ بِاللهِ رَبًّا، وَبِاْلإِسْلاَمِ دِيْنًا، وَبِمُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا'
     ],
     'is_day': true,
-    'is_night': false,
+    'is_night': true,
     'suggestion': '(Dibaca 3x)',
+    'faedah':
+        'Barangsiapa yang mengucapkan hadits ini sebanyak tiga kali di pagi hari dan tiga kali di petang hari, maka pantas baginya mendapatkan ridha Allah.',
     'description':
         '“Aku ridha Allah sebagai Rabb, Islam sebagai agama dan Muhammad shallallahu ‘alaihi wa sallam sebagai nabi.”',
     'source':
@@ -217,7 +219,7 @@ const dzikirData = [
       'وَأَصْلِحْ لِيْ شَأْنِيْ كُلَّهُ وَلاَ تَكِلْنِيْ إِلَى نَفْسِيْ طَرْفَةَ عَيْنٍ أَبَدًا '
     ],
     'is_day': true,
-    'is_night': false,
+    'is_night': true,
     'suggestion': '(Dibaca 1x)',
     'description':
         '“Wahai Rabb Yang Maha Hidup, wahai Rabb Yang Berdiri Sendiri (tidak butuh segala sesuatu), dengan rahmat-Mu aku minta pertolongan, perbaikilah segala urusanku dan jangan diserahkan kepadaku sekali pun sekejap mata (tanpa mendapat pertolongan dariMu).”',
@@ -244,7 +246,7 @@ const dzikirData = [
     'id': 14,
     'texts': ['سُبْحَانَ اللهِ وَبِحَمْدِهِ'],
     'is_day': true,
-    'is_night': false,
+    'is_night': true,
     'suggestion': '(Dibaca 100x)',
     'faedah':
         'Barangsiapa yang mengucapkan kalimat ‘subhanallah wa bi hamdih’ di pagi dan petang hari sebanyak 100 x, maka tidak ada yang datang pada hari kiamat yang lebih baik dari yang ia lakukan kecuali orang yang mengucapkan semisal atau lebih dari itu',
@@ -298,5 +300,69 @@ const dzikirData = [
     'description': '“Aku memohon ampun kepada Allah dan bertobat kepada-Nya.”',
     'suggestion': '(Dibaca 100x pagi dan sore hari)',
     'source': 'HR. Bukhari no. 6307 dan Muslim no. 2702.'
+  },
+  {
+    'id': 18,
+    'texts': [
+      'أَمْسَيْنَا وَأَمْسَى الْمُلْكُ للهِ، وَالْحَمْدُ للهِ، ',
+      'لَا إِلَهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، ',
+      'لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، ',
+      'وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، ',
+      'رَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذِهِ اللَّيْلَةِ وَخَيْرَ مَا بَعْدَهَا، ',
+      'وَأَعُوذُبِكَ مِنْ شَرِّ مَا فِي هَذِهِ اللَّيْلَةِ وَشَرِّ مَا بَعْدَهَا، ',
+      'رَبِّ أَعُوذُبِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ، ',
+      'رَبِّ أَعُوذُبِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ'
+    ],
+    'is_day': false,
+    'is_night': true,
+    'description':
+        '“Kami telah memasuki waktu petang dan kerajaan hanya milik Allah, segala puji bagi Allah. Tidak ada ilah (yang berhak disembah) kecuali Allah semata, tiada sekutu bagi-Nya. Milik Allah kerajaan dan bagi-Nya pujian. Dia-lah Yang Mahakuasa atas segala sesuatu.Wahai Rabbku, aku mohon kepada-Mu kebaikan di malam ini dan kebaikan sesudahnya. Aku berlindung kepadaMu dari kejahatan malam ini dan kejahatan sesudahnya. Wahai Rabbku, aku berlindung kepadaMu dari kemalasan dan kejelekan di hari tua. Wahai Rabbku, aku berlindung kepada-Mu dari siksaan di neraka dan siksaan di kubur.',
+    'suggestion': '(Dibaca 1x)',
+    'source':
+        'HR. Muslim no. 2723. Lihat keterangan Syarh Hisnul Muslim, hal. 161.'
+  },
+  {
+    'id': 19,
+    'texts': [
+      'اللَّهُمَّ بِكَ أَمْسَيْنَا، ',
+      'وَبِكَ أَصْبَحْنَا،وَبِكَ نَحْيَا، ',
+      'وَبِكَ نَمُوتُ، ',
+      'وَإِلَيْكَ الْمَصِيْرُ'
+    ],
+    'is_day': false,
+    'is_night': true,
+    'description':
+        '“Ya Allah, dengan rahmat dan pertolongan-Mu kami memasuki waktu petang, dan dengan rahmat dan pertolongan-Mu kami memasuki waktu pagi. Dengan rahmat dan pertolonganMu kami hidup dan dengan kehendakMu kami mati. Dan kepada-Mu tempat kembali (bagi semua makhluk).”',
+    'suggestion': '(Dibaca 1x)',
+    'source':
+        'HR. Tirmidzi no. 3391 dan Abu Daud no. 5068. Al Hafizh Abu Thohir mengatakan bahwa sanad hadits ini shahih.'
+  },
+  {
+    'id': 20,
+    'texts': [
+      'اَللَّهُمَّ إِنِّيْ أَمْسَيْتُ أُشْهِدُكَ وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، ',
+      'وَمَلاَئِكَتَكَ وَجَمِيْعَ خَلْقِكَ، ',
+      'أَنَّكَ أَنْتَ اللهُ لاَ إِلَـهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيْكَ لَكَ، ',
+      'وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُوْلُكَ'
+    ],
+    'is_day': false,
+    'is_night': true,
+    'faedah':
+        'Barangsiapa yang mengucapkan dzikir ini ketika pagi dan petang hari sebanyak empat kali, maka Allah akan membebaskan dirinya dari siksa neraka',
+    'description':
+        '“Ya Allah, sesungguhnya aku di waktu petang ini mempersaksikan Engkau, malaikat yang memikul ‘Arys-Mu, malaikat-malaikat dan seluruh makhluk-Mu, bahwa sesungguhnya Engkau adalah Allah, tiada ilah yang berhak disembah kecuali Engkau semata, tiada sekutu bagi-Mu dan sesungguhnya Muhammad adalah hamba dan utusan-Mu.”',
+    'suggestion': '(Dibaca 4x)',
+    'source': ''
+  },
+  {
+    'id': 21,
+    'texts': ['أَعُوْذُ بِكَلِمَاتِ اللهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ'],
+    'is_day': false,
+    'is_night': true,
+    'description':
+        '“Aku berlindung dengan kalimat-kalimat Allah yang sempurna dari kejahatan makhluk yang diciptakanNya.”',
+    'suggestion': '(Dibaca 3x pada waktu petang)',
+    'source':
+        'HR. Ahmad 2: 290. Syaikh Syu’aib Al Arnauth mengatakan bahwa sanad hadits ini shahih sesuai syarat Muslim. Lihat komentar Syaikh Syu’aib Al Arnauth terhadap hadits ini untuk pengertian hummah diartikan dengan racun atau sengatan kalajengking.'
   }
 ];
